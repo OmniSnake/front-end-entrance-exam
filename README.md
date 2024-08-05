@@ -24,7 +24,7 @@ https://omnisnake.github.io/front-end-entrance-exam/
 
 2. Доступная ссылка для клонирования репозитория
 
-git clone https://github.com/OmniSnake/front-end-entrance-exam
+https://github.com/OmniSnake/front-end-entrance-exam
 _____________________________________________________
 
 Технологии
