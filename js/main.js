@@ -18,7 +18,7 @@ function saveContent(element, index) {
   element.addEventListener('input', () => {
       sessionStorage.setItem('content' + index, element.innerHTML);
   });
-}
+};
 
 function materialWave(element) {
   element.addEventListener('click', function (event) {
@@ -36,7 +36,7 @@ function materialWave(element) {
           ripple.remove();
       });
   });
-}
+};
 
 function getPdf() {
   const downloadBtn = document.querySelector('.download-button');
@@ -67,4 +67,4 @@ function getPdf() {
       doc.save('resume.pdf');
       downloadBtn.style.opacity = 1;
   });
-}
+};

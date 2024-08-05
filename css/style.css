@@ -18,6 +18,7 @@ body {
 
 .container {
     max-width: 950px;
+    min-width: 480px;
     padding: 20px 30px;
     background-color: #fff;
     display: flex;
@@ -385,10 +386,6 @@ p, span, li {
     margin: 0;
 }
 
-li {
-    list-style-image: url('./assets/img/small-dot.png');
-}
-
 .favorite {
     color: #fff;
     background-color: #28D979;
@@ -646,4 +643,22 @@ li {
     .experience-item__content {
         gap: 12px;
     }
+}
+
+@media (max-width: 720px) {
+
+  .container {
+    padding: 10px 10px;
+  }
+  .header {
+    gap: 5px;
+  }
+
+  .languages__list {
+    width: 50%;
+  }
+
+  .languages__item {
+    font-size: 0.833rem;
+}
 }
