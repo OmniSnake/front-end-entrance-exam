@@ -1,13 +1,199 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="./js/main.js"></script>
-  </body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resume</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <main class="container">
+        <header class="header">
+            <div class="header__photo header__element" style="background-image: url('./assets/img/profile-foto.jpeg');">
+            </div>
+            <div class="header__intro header__element">
+                <h3 class="header__title" contenteditable="true">Hello 👋 I’m</h3>
+                <h2 class="header__name" contenteditable="true">Graham Hunt</h2>
+                <p class="header__profession" contenteditable="true">Brand/Logo Designer</p>
+            </div>
+            <div class="header__languages header__element languages">
+                <h3 class="languages__title">Languages</h3>
+                <div class="languages__wrapper">
+                    <ul class="languages__list">
+                        <li class="languages__item"><span contenteditable="true">English</span></li>
+                        <li class="languages__item"><span contenteditable="true">Spanish</span></li>
+                        <li class="languages__item"><span contenteditable="true">French</span></li>
+                    </ul>      
+                    <ul class="languages__bar-wrapper">
+                        <li class="languages__bar"><div class="languages__fill languages__fill_full"></div></li>                                       
+                        <li class="languages__bar"><div class="languages__fill languages__fill_medium"></div></li>                       
+                        <li class="languages__bar"><div class="languages__fill languages__fill_small"></div></li>  
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="main-content">
+            <section class="personal main-content__section">
+                <div class="education">
+                    <h3 class="education__title">Education</h3>
+                    <div class="education__board board">
+                        <div class="education__item favorite">
+                            <div class="favorite-wrapper">
+                                <div class="education__year" contenteditable="true">2024</div>
+                                <img src="./assets/img/like.png" class="like" alt="Image of Heart">
+                            </div>
+                            <div class="education-wrapper">
+                                <p class="education__course favorite" contenteditable="true">UX/UI</p>
+                                <div class="education__tag favorite" contenteditable="true">
+                                    #UX #UI #research #DesignSystem #Agile #wireframing #figma #IA
+                                </div>               
+                            </div>
+                            <p class="education__institution favorite" contenteditable="true">Neoland</p>
+                        </div>
+                        <div class="education__item">
+                            <p class="education__year" contenteditable="true">2022</p>
+                            <div class="education-wrapper">
+                                <p class="education__course" contenteditable="true">Product designer</p>
+                                <div class="education__tag" contenteditable="true">
+                                    #analytics #research #prototype #wireframes
+                                </div> 
+                            </div>
+                            <p class="education__institution" contenteditable="true">Coursera</p>
+                        </div>
+                        <div class="education__item">
+                            <p class="education__year" contenteditable="true">2017-2021</p>
+                            <div class="education-wrapper">
+                                <p class="education__course" contenteditable="true">Graphic design</p>  
+                                <div class="education__tag" contenteditable="true">
+                                    #branding #web #illustration #adobe
+                                </div>                         
+                            </div>
+                            <p class="education__institution" contenteditable="true">Cali Institute of the Arts</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="extra-info">
+                    <div class="interests">
+                        <h3 class="interests__title">Interests</h3>
+                        <div class="interests__list">
+                            <span class="interests__item" contenteditable="true">branding</span>
+                            <span class="interests__item" contenteditable="true">brand identity</span>
+                            <span class="interests__item" contenteditable="true">logo</span>
+                            <span class="interests__item" contenteditable="true">typography</span>
+                            <span class="interests__item" contenteditable="true">photography</span>
+                            <span class="interests__item" contenteditable="true">designing</span>
+                            <span class="interests__item" contenteditable="true">poster design</span>
+                            <span class="interests__item" contenteditable="true">research</span>
+                            <span class="interests__item" contenteditable="true">social networks</span>
+                            <span class="interests__item" contenteditable="true">illustration</span>
+                        </div>
+                    </div>
+                    <div class="contact-container">
+                        <div class="contact-container__content" contenteditable="true">Let’s chat! I’m ready to work on exciting projects</div>
+                        <div class="contact-container__wrapper">
+                            <div class="contact-container__email" contenteditable="true">ivann19bj@gmail.com</div>  
+                            <div class="contact-container__phone" contenteditable="true">+34 666 666 666</div>    
+                        </div>                
+                    </div>
+                </div>
+            </section>
+            <section class="competence">
+                <div class="tools">
+                    <h3 class="tools__title">Tools</h3>
+                    <div class="tools__content">
+                        <div class="tools-board">
+                            <div class="tools-board__title" contenteditable="true">design</div>                    
+                            <div class="tools-board__content board">
+                                <div class="tools-icon" style="background-image: url('./assets/icons/design/logoFigma.svg');"></div>
+                                <div class="tools-icon" style="background-image: url('./assets/icons/design/logoCreativeCloud.svg');"></div>
+                                <div class="tools-icon" style="background-image: url('./assets/icons/design/logoMiro.svg');"></div>
+                                <div class="tools-icon" style="background-image: url('./assets/icons/design/logoNotion.svg');"></div>
+                                <div class="tools-icon" style="background-image: url('./assets/icons/design/logoMeet.svg');"></div>
+                                <div class="tools-icon" style="background-image: url('./assets/icons/design/logoanalytics.svg');"></div>
+                            </div>                
+                        </div>                            
+                        <div class="tools-board">
+                            <div class="tools-board__title" contenteditable="true">no-code</div> 
+                            <div class="tools-board__content board">
+                                <div class="tools-icon" style="background-image: url('./assets/icons/no-code/logoZapier.svg');"></div>
+                                <div class="tools-icon" style="background-image: url('./assets/icons/no-code/logoWebflow.svg');"></div>
+                                <div class="tools-icon" style="background-image: url('./assets/icons/no-code/logoFramer.svg');"></div>
+                                <div class="tools-icon" style="background-image: url('./assets/icons/no-code/logoWordpress.svg');"></div>
+                            </div>
+                        </div>
+                        <div class="tools-board">
+                            <div class="tools-board__title" contenteditable="true">artificial intelligence</div>
+                            <div class="tools-board__content board">
+                                <div class="tools-icon" style="background-image: url('./assets/icons/ai/logoChatGPT.svg');"></div>
+                                <div class="tools-icon" style="background-image: url('./assets/icons/ai/logoCopilot.svg');"></div>
+                                <div class="tools-icon" style="background-image: url('./assets/icons/ai/logoMidjourney.svg');"></div>
+                            </div>                       
+                        </div>
+                    </div>
+                </div>
+                <div class="experience">
+                    <h3 class="experience__title">Experience</h3>
+                    <div class="experience-item favorite">
+                        <div class="experience-item__header favorite-wrapper">
+                            <p class="experience-item__date" contenteditable="true">Jul. 2023 - Aug. 2023</p>
+                            <div class="favorite-recent">most recent</div>   
+                        </div>
+                        <div class="experience-item__content item-content">                    
+                            <div class="item-content__block-job">
+                                <div class="item-content__role" contenteditable="true">Senior Graphic Designer</div>
+                                <div class="item-content__role-details favorite" contenteditable="true">Pinnacle | Full-time</div>
+                            </div>
+                            <div class="item-content__block-details">
+                                <ul>
+                                    <li style="list-style-image: url('./assets/img/spall-dot-favorite.png');"><p class="item-content__details" contenteditable="true">Research and brainstorm various design ideas for contentand marketing.</p></li>
+                                    <li style="list-style-image: url('./assets/img/spall-dot-favorite.png');"><p class="item-content__details" contenteditable="true">Review the work submitted by Junior Designers and sharing feedback.</p></li>                  
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <div class="experience-item__header">
+                            <p class="experience-item__date" contenteditable="true">Jan. 2021 - Jul. 2023</p>
+                        </div>
+                        <div class="experience-item__content item-content">                    
+                            <div class="item-content__block-job">
+                                <div class="item-content__role" contenteditable="true">Graphic / Web designer</div>
+                                <div class="item-content__role-details" contenteditable="true">Double Square | Full-time</div>
+                            </div>
+                            <div class="item-content__block-details">
+                                <ul>
+                                    <li style="list-style-image: url('./assets/img/small-dot.png');"><p class="item-content__details" contenteditable="true">Development of internal projects from scratch, product design of brands.</p></li>
+                                    <li style="list-style-image: url('./assets/img/small-dot.png');"><p class="item-content__details" contenteditable="true">Landing page, webapps and hybrid app.</p></li>
+                                    <li style="list-style-image: url('./assets/img/small-dot.png');"><p class="item-content__details" contenteditable="true">Taking decisions with stakeholders for the future of products such as Beagle labs, myur...</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <div class="experience-item__header">
+                            <p class="experience-item__date" contenteditable="true">Feb. 2021 - Jul. 2023</p>
+                        </div>
+                        <div class="experience-item__content item-content">                    
+                            <div class="item-content__block-job">
+                                <div class="item-content__role" contenteditable="true">Graphic Designer</div>
+                                <div class="item-content__role-details" contenteditable="true">Freelance</div>
+                            </div>
+                            <div class="item-content__block-details">
+                                <ul>
+                                    <li style="list-style-image: url('./assets/img/small-dot.png');"><p class="item-content__details" contenteditable="true">Visual design for Events, Brands and Products.</p></li>
+                                    <li style="list-style-image: url('./assets/img/small-dot.png');"><p class="item-content__details" contenteditable="true">Product design, Packaging Design</p></li>
+                                    <li style="list-style-image: url('./assets/img/small-dot.png');"><p class="item-content__details" contenteditable="true">Logo Design</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <button class="download-button" id="download-button" contenteditable="false">DOWNLOAD RESUME</button>
+        </main>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" defer></script>
+        <script src="js/main.js" defer></script>
+    </body>
 </html>
